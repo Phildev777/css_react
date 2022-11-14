@@ -1,0 +1,28 @@
+/* style.scss*/
+
+
+/* utilise des variables dans le CSS, car c'est possible 😎 */
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+
+/* utilise l'imbrication de classes dans le CSS, car c'est possible 😎 */
+nav {
+    ul {
+        font: 100% $font-stack;
+        color: $primary-color;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    a {
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+    }
+}
